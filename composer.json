@@ -1,7 +1,7 @@
 {
-    "name": "augustash/magento-1.9.x-sandbox",
+    "name": "augustash/magento-ce-1.9.x-sandbox",
     "description": "Magento Community Edition sandbox site for demo/debugging purposes",
-    "homepage": "",
+    "homepage": "https://github.com/augustash/magento-ce-1.9.x-sandbox",
     "license": "proprietary",
     "minimum-stability": "dev",
     "authors": [

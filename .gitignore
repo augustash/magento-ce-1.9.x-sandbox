@@ -62,6 +62,15 @@ scheduler_cron.sh
 shell/scheduler.php
 skin/adminhtml/**/aoe_scheduler*
 
+# Ash_Magetools
+shell/cache.php
+shell/composer.phar
+shell/magento-composer-installer.php
+shell/modman
+shell/n98-magerun.phar
+shell/snapshot
+shell/validate-json
+
 # ASH suite of modules
 /app/code/community/Ash/
 /app/design/adminhtml/default/default/layout/ash_*.xml

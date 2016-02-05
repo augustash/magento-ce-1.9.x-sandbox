@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f20869153ae0114a2a670aa1b4432d9a",
-    "content-hash": "4b97e357e3a0cbf5ec25c5d63b30a877",
+    "hash": "d2a45de2710b293d65fa16e931341a34",
+    "content-hash": "9a4f55067abf66b3d08c42f210fc3016",
     "packages": [
         {
             "name": "aoepeople/aoe_scheduler",
@@ -478,44 +478,6 @@
             "description": "Validate & recognize credit credit card type via IIN (issuer identification number)",
             "homepage": "https://github.com/augustash/ash_validatecreditcard.git",
             "time": "2016-02-02 21:25:17"
-        },
-        {
-            "name": "augustash/slydesho",
-            "version": "1.4.5",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:augustash/slydesho.git",
-                "reference": "3869155372a5e8f61f6f195087de2ecf5b713648"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/augustash/slydesho/zipball/3869155372a5e8f61f6f195087de2ecf5b713648",
-                "reference": "3869155372a5e8f61f6f195087de2ecf5b713648",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://packages.augustash.com/repo/private/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "augustash/ash_jquery": "*",
-                "magento-hackathon/magento-composer-installer": "*"
-            },
-            "type": "magento-module",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Josh Johnson",
-                    "email": "jjohnson@augustash.com"
-                }
-            ],
-            "description": "Responsive slide shows using the jQuery BxSlider",
-            "homepage": "https://github.com/augustash/slydesho.git",
-            "time": "2016-01-27 21:57:46"
         },
         {
             "name": "eloquent/composer-config-reader",

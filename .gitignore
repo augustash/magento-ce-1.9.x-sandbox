@@ -1,0 +1,91 @@
+# Magento runtime directories and files
+/var/*
+!/var/.htaccess
+
+# Magento Connect 2 cache directories and files
+/downloader/.cache/
+/downloader/cache.cfg
+/downloader/connect.cfg
+
+# Magento uploaded/generated media files
+/media/*
+/media/*/*
+!/media/customer/.htaccess
+!/media/downloadable/.htaccess
+!/media/.htaccess
+
+# Magento miscellaneous files
+/maintenance.flag
+/include/src/*
+/pkginfo/
+
+# SCSS files
+# .sass-cache/
+# /skin/frontend/*/*/css/
+# /skin/frontend/**/**/stylesheets/styles.css
+# !/skin/frontend/base/default/css/
+# !/skin/frontend/default/default/css/
+
+# Development IDE settings
+*.sublime-workspace
+*.sublime-project
+/.idea
+/.buildpath/
+/.project/
+/.settings/
+/nbproject/
+/module_sources/
+
+# Capistrano log files
+/log
+
+# Packages
+/.bundle/
+/.modman/
+/.modgit/
+/.vagrant/
+/vendor/
+node_modules
+bower_components
+.ruby-version
+
+# Third-party Composer Extensions
+
+# AOE Scheduler (installed via composer)
+/app/code/community/Aoe/Scheduler
+/app/design/adminhtml/**/aoe_scheduler*
+/app/etc/modules/Aoe_Scheduler.xml
+/app/locale/de_DE/Aoe_Scheduler.csv
+/app/locale/en_US/template/email/aoe_scheduler
+/app/locale/sv_SE/Aoe_Scheduler.csv
+scheduler_cron.sh
+shell/scheduler.php
+skin/adminhtml/**/aoe_scheduler*
+
+# ASH suite of modules
+/app/code/community/Ash/
+/app/design/adminhtml/default/default/layout/ash_*.xml
+/app/design/adminhtml/default/default/template/ash_*
+/app/design/frontend/base/default/layout/ash_*.xml
+/app/design/frontend/base/default/template/ash_*
+/app/etc/modules/Ash_*.xml
+/app/locale/en_US/Ash_*.csv
+/js/ash_*
+/js/jquery
+/shell/snapshot.sh
+/skin/frontend/base/default/ash_*
+
+# Bubble Launcher (Ash_Launcher)
+app/code/community/Bubble/
+app/design/adminhtml/default/default/*/bubble*
+app/design/frontend/base/default/*/ash_validatecreditcard*
+app/etc/modules/Bubble_Launcher.xml
+app/locale/fr_FR/Bubble_Launcher.csv
+js/bubblelauncher
+skin/adminhtml/default/default/bubblelauncher.css
+skin/adminhtml/default/default/images/bubblelauncher
+
+
+# Wordpress media uploads
+wp/wp-content/uploads
+wp/wp-config.php

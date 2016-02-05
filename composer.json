@@ -1,0 +1,70 @@
+{
+    "name": "augustash/magento-1.9.x-sandbox",
+    "description": "Magento Community Edition sandbox site for demo/debugging purposes",
+    "homepage": "",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Josh Johnson",
+            "email": "josh@augustash.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "^3.0.0",
+        "augustash/ash_magetools": "^1.1.4",
+        "aoepeople/aoe_scheduler": "^1.3.0",
+        "augustash/ash_jquery": "~1.7.1",
+        "augustash/ash_tierpricingtables": "~0.1.2",
+        "augustash/slydesho": "~1.4.5",
+        "augustash/ash_jreject": "~1.1.1",
+        "augustash/ash_reports": "~1.0.1",
+        "augustash/ash_dependentfilter": "~1.1.0",
+        "augustash/ash_launcher": "~1.0.4",
+        "augustash/ash_validatecreditcard": "~1.0.4",
+        "augustash/ash_hideemptyattributes": "~1.0.3",
+        "augustash/ash_simplesharebuttons": "~1.2.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.augustash.com/repo/private/"
+        },
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AOEpeople/Aoe_Scheduler"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/augustash/ash_dependentfilter"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/augustash/ash_launcher"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/augustash/ash_validatecreditcard"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/augustash/ash_hideemptyattributes"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/augustash/ash_simplesharebuttons"
+        }
+    ],
+
+    "config": {
+        "bin-dir": "shell"
+    },
+
+    "extra": {
+        "magento-root-dir": "./"
+    }
+}

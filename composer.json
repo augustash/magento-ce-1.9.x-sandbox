@@ -23,7 +23,7 @@
         "augustash/ash_launcher": "~1.0.4",
         "augustash/ash_validatecreditcard": "~1.0.4",
         "augustash/ash_hideemptyattributes": "~1.0.3",
-        "augustash/ash_simplesharebuttons": "~1.2.0"
+        "augustash/ash_simplesharebuttons": "~1.2.1"
     },
     "repositories": [
         {

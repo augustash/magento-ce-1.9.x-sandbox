@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "85302804d1ccbf1bcd292e2228cc97b0",
-    "content-hash": "78b4b08da523ba9f4f4b8e79f1663c87",
+    "hash": "f20869153ae0114a2a670aa1b4432d9a",
+    "content-hash": "4b97e357e3a0cbf5ec25c5d63b30a877",
     "packages": [
         {
             "name": "aoepeople/aoe_scheduler",
@@ -365,16 +365,16 @@
         },
         {
             "name": "augustash/ash_simplesharebuttons",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:augustash/ash_simplesharebuttons.git",
-                "reference": "2e7c7f94038adf768215591a5d6d34a25f6ff762"
+                "reference": "fb65404fa41589c32891c0b89be18e02f6b1aa97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/augustash/ash_simplesharebuttons/zipball/2e7c7f94038adf768215591a5d6d34a25f6ff762",
-                "reference": "2e7c7f94038adf768215591a5d6d34a25f6ff762",
+                "url": "https://api.github.com/repos/augustash/ash_simplesharebuttons/zipball/fb65404fa41589c32891c0b89be18e02f6b1aa97",
+                "reference": "fb65404fa41589c32891c0b89be18e02f6b1aa97",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -400,7 +400,7 @@
             ],
             "description": "Lightweight alternative to AddThis or ShareThis social sharing buttons",
             "homepage": "https://github.com/augustash/ash_simplesharebuttons.git",
-            "time": "2016-02-03 01:46:26"
+            "time": "2016-02-05 21:55:18"
         },
         {
             "name": "augustash/ash_tierpricingtables",
